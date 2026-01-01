@@ -1,0 +1,11 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "jsx": "react-jsx", // This is the most common setting for modern React
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "target": "es2016",
+    "allowJs": true
+  }
+}
