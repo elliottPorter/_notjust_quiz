@@ -1,4 +1,4 @@
-export default [
+const questions = [
   {
     title: 'What does HTML stand for?',
     options: [
@@ -40,3 +40,5 @@ export default [
     correctAnswer: '#',
   },
 ];
+
+export { questions };
